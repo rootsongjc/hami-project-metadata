@@ -1,8 +1,6 @@
 # .project metadata for hami
 # Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
 
-# TODO: Add adopters list (ADOPTERS.md)
-
 schema_version: "1.0.0"
 slug: "hami"
 name: "hami"
@@ -23,9 +21,8 @@ website: "https://project-hami.github.io/HAMi/"
 
 artwork: "https://landscape.cncf.io/logos/hami.svg"
 
-# TODO: Add ADOPTERS.md if your project tracks adopters
-# adopters:
-#   path: "https://github.com/Project-HAMi/HAMi/blob/main/ADOPTERS.md"
+adopters:
+  path: "https://github.com/Project-HAMi/.project/blob/main/ADOPTERS.md"
 
 package_managers:
    docker: "projecthami/hami"
